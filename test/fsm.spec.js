@@ -1,4 +1,4 @@
-const FSM = require('../src/fsm');
+const FSM = require('../src/fsm.js');
 
 /** Good luck! :) **/
 
