@@ -110,7 +110,7 @@ class FSM {
      */
     clearHistory() {
         this.count = 0;
-        this.history = ["normal"];
+        this.history = [this.currentState];
     }
 }
 module.exports = FSM;
